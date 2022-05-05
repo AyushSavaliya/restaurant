@@ -80,7 +80,7 @@ app.post("/login", async (req, res) => {
             res.send("password is not match");
         }
     } catch (error) {
-        res.status(401).send("invalid Email");
+        res.status(401).send("invalid Email")
     }
 });
 

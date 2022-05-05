@@ -1,0 +1,21 @@
+{
+  "name": "form-validation",
+  "version": "1.0.0",
+  "description": "form validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "nodemon": "^2.0.16",
+    "validator": "^13.7.0"
+  }
+}
